@@ -23,7 +23,7 @@ let s:defaults = {
             \ 'filename': '.vimrc',
             \ }
 
-call modlarvimrc#set_default('g:modularvimrc#filename', s:defaults.filename)
+call modularvimrc#set_default('g:modularvimrc#filename', s:defaults.filename)
 "}}}
 " Loader function {{{
 function! modularvimrc#load() 
