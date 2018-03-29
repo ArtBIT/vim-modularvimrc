@@ -1,5 +1,4 @@
 # Modular .vimrc loader
-:Author: Djordje Ungar <gmail@djordjeungar.com>
 
 This is a simple plug-in for Vim (and NeoVim) that auto loads directory specific `.vimrc` config. 
 
