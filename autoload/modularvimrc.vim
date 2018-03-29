@@ -23,7 +23,7 @@ let s:defaults = {
             \ 'filename': '.vimrc',
             \ }
 
-call skeletons#set_default('g:modularvimrc#filename', s:defaults.filename)
+call modlarvimrc#set_default('g:modularvimrc#filename', s:defaults.filename)
 "}}}
 " Loader function {{{
 function! modularvimrc#load() 
