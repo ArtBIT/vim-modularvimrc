@@ -41,7 +41,7 @@ function! modularvimrc#load()
     for path_part in path_parts
         let local_path = local_path . path_part . "/"
         if filereadable(local_path . g:modularvimrc#filename)
-            exe ":so " . local_path . vimrc_filename
+            exe ":so " . local_path . g:modularvimrc#filename
         endif
     endfor
 endfunction 
